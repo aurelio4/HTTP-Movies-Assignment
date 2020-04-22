@@ -55,6 +55,7 @@ let movies = [
 let movieId = movies.length;
 
 app.get("/api/movies", (req, res) => {
+  console.log('movies sent!')
   res.send(movies);
 });
 
